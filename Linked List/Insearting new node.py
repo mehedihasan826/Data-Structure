@@ -56,9 +56,12 @@ if __name__ == '__main__':
     my_list.firstnode(4)
     my_list.push(20)
     my_list.InNode(my_list.head.next,15)
+    my_list.InNode(my_list.head.next,3)
+    my_list.push(100)
+    my_list.firstnode(1)
+    my_list.InNode(my_list.head.next, 50)
 
     my_list.printlist()
-  #  a= my_list.len()
 
 
     print("Lenth of the linked list is {}" .format(my_list.len()) )
